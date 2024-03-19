@@ -26,13 +26,14 @@ You can still execute this project without using Docker.
 
 First, change the Node IPs. For example
 
-// nodeAddressByID: It includes nodes currently in cluster
+```// nodeAddressByID: It includes nodes currently in cluster
 var nodeAddressByID = map[string]string{
 	"node-01": "node-01:6001", <--- change here to localhost:6001
 	"node-02": "node-02:6002", <--- change here to localhost:6002
 	"node-03": "node-03:6003", <--- change here to localhost:6003
 	"node-04": "node-04:6004", <--- change here to localhost:6004
 }
+```
 Second, you can set which node you want to run in Program arguments like
 
 go run . node-02
