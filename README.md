@@ -1,4 +1,4 @@
-# Leader-election-Bully-algorithm
+# Leader-Election-Bully-Algorithm
 # Quickstart With Docker
 
 Quickly set up and test the Bully Algorithm for leader election in distributed systems using Docker Compose. The provided Docker Compose file launches four nodes, allowing you to easily observe the cluster behavior.
